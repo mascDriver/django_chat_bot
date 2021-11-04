@@ -7,12 +7,13 @@ app using Django_ and ChatterBot_.
 
 Documentation
 -------------
-
+Run in your terminal `pip install -r requirements.txt` and `python manage.py migrate`
 Start the Django app by running `python manage.py runserver 0.0.0.0:8000`
+
 
 Further documentation on getting set up with Django and ChatterBot can be
 found in the `ChatterBot documentation`_.
 
 .. _Django: https://www.djangoproject.com
-.. _ChatterBot: https://github.com/mascdriver/chat_bot
+.. _ChatterBot: https://github.com/mascdriver/django_chat_bot
 .. _ChatterBot documentation: http://chatterbot.readthedocs.io/en/stable/django/index.html
