@@ -1,3 +1,4 @@
 Django==3.2.9
 chatterbot-corpus
 ChatterBot
+spacy==3.1.4

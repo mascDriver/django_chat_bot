@@ -7,7 +7,15 @@ app using Django_ and ChatterBot_.
 
 Documentation
 -------------
-Run in your terminal `pip install -r requirements.txt` and `python manage.py migrate`
+Run in your terminal
+
+`python -m spacy download pt_core_news_sm`
+
+`python -m spacy download en_core_web_sm`
+
+`pip install -r requirements.txt`
+
+and `python manage.py migrate`
 
 
 Start the Django app by running `python manage.py runserver 0.0.0.0:8000`

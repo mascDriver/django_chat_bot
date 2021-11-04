@@ -7,7 +7,7 @@ from django.conf import settings
 from django.utils.decorators import method_decorator
 from django.views.decorators.csrf import csrf_exempt
 from chatterbot.trainers import ChatterBotCorpusTrainer
-
+from chatterbot.languages import ENG, BRA
 
 
 class ChatterBotAppView(TemplateView):
@@ -19,6 +19,8 @@ class ChatterBotApiView(View):
     """
     Provide an API endpoint to interact with ChatterBot.
     """
+    ENG.ISO_639_1 = 'en_core_web_sm'
+    BRA.ISO_639_1 = 'pt_core_news_sm'
 
     chatterbot = ChatBot(**settings.CHATTERBOT)
 
