@@ -8,6 +8,8 @@ app using Django_ and ChatterBot_.
 Documentation
 -------------
 Run in your terminal `pip install -r requirements.txt` and `python manage.py migrate`
+
+
 Start the Django app by running `python manage.py runserver 0.0.0.0:8000`
 
 
